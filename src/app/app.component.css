@@ -1,0 +1,95 @@
+body{
+    background-color:#ffbc00;
+
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    color: green;
+    padding: 2%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+
+  mat-slider {
+    width: 300px;
+  }
+
+  .checkbox{
+      padding: 2%;
+      display: flex;
+  }
+
+  .checkbox mat-checkbox{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .datepicker{
+      color: blue;
+      padding: 2%;
+  }
+
+  .form_field{
+      padding: 2%;
+      color: blue;
+  }
+
+  .example-form1 {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    display: list-item;
+    color: green;
+    padding: 2%;
+  }
+
+  .radio{
+      color: gray;
+      padding: 2%;
+  }
+
+  .select{
+      padding: 2%;
+  }
+
+  .slider{
+    padding: 2%;
+  }
+
+  .toggle mat-slide-toggle{
+      padding: 2%;
+      color: brown;  
+  }
+
+
+  /* animaciones */
+
+  .fadeIn{
+      animation-duration: 4s;
+      animation-name: fadeIn;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 4s;
+      -webkit-animation-name: fadeIn;
+      -webkit-animation-fill-mode: both;
+  }
+
+  @keyframes fadeIn{
+      from{
+        opacity: 0;
+      }to{
+        opacity: 1;
+      }
+  }
